@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#fffef8"/>
+  <g transform="translate(100,130) scale(0.5)">
+    <rect width="600" height="220" rx="24" fill="#ffd89b"/>
+    <rect x="30" y="30" width="540" height="160" rx="20" fill="#f7cfa0"/>
+    <text x="300" y="120" font-family="Georgia, serif" font-size="34" text-anchor="middle" fill="#8b4b00">Banana Bread</text>
+  </g>
+</svg>

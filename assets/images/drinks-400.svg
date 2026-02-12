@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f8fffd"/>
+  <g transform="translate(120,140) scale(0.5)">
+    <rect width="160" height="260" rx="20" fill="#fff" stroke="#ffd8b3" stroke-width="6"/>
+    <rect x="200" width="160" height="260" rx="20" fill="#fff" stroke="#ffd8b3" stroke-width="6"/>
+    <rect x="400" width="160" height="260" rx="20" fill="#fff" stroke="#ffd8b3" stroke-width="6"/>
+    <text x="280" y="220" font-family="Arial" font-size="34" text-anchor="middle" fill="#6b3b00">Drinks</text>
+  </g>
+</svg>

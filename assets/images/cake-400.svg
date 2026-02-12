@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#fff7f1"/>
+  <g transform="translate(80,100) scale(0.5)">
+    <rect width="640" height="320" rx="30" fill="#ffb380"/>
+    <rect y="40" width="640" height="80" rx="20" fill="#fff3e6"/>
+    <circle cx="120" cy="80" r="30" fill="#fff"/>
+    <text x="320" y="200" font-family="Arial" font-size="36" text-anchor="middle" fill="#803300">Cake</text>
+  </g>
+</svg>

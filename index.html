@@ -3,12 +3,140 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Kaydelish — Home</title>
-  <meta name="description" content="Kaydelish home page (copy)">
+  <title>Kaydelish — Baked with Love. Made to Order.</title>
+  <meta name="description" content="Kaydelish: Homemade cakes, banana bread, pastries and drinks. Pre-order cakes; order via WhatsApp.">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/responsive.css">
 </head>
 <body>
-<!-- This is a copy of the site's home page placed in the `home/` directory so you have a dedicated home page folder. Assets use absolute paths so this file works from the same server root. -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/index.html" class="brand">
+        <img src="/assets/images/logo-create3d.png" alt="Kaydelish logo" class="logo">
+        <span class="brand-name">Kaydelish</span>
+      </a>
+      <nav class="main-nav" id="main-nav">
+        <a href="/cakes.html">Cakes</a>
+        <a href="/pastries.html">Pastries & Snacks</a>
+        <a href="/drinks.html">Drinks</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+      <button id="menu-toggle" class="menu-toggle" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Kaydelish</h1>
+        <p class="tagline">Baked with Love. Made to Order.</p>
+        <p class="lead">Warm, homemade cakes, breads and snacks made fresh to your taste. Cakes are pre-order only — customizable to your event.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="/cakes.html">Pre-order a Cake</a>
+          <a class="btn" href="/pastries.html">View Pastries</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <h2>Our Specialties</h2>
+      <div class="social-mini" aria-hidden="false">
+        <a class="tiktok" href="https://www.tiktok.com/@kaysdelish_oven?_r=1&_t=ZS-93TrW768wtM" target="_blank" rel="noopener" aria-label="Visit our TikTok">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 3v10.5A4.5 4.5 0 1 0 13.5 18V9h3V6.5a6.5 6.5 0 0 1-7.5-3.5z"/></svg>
+          TikTok
+        </a>
+        <a class="instagram" href="https://www.instagram.com/kaysdelish_oven?igsh=Z29oNGNvaGkzc3Y4" target="_blank" rel="noopener" aria-label="Visit our Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 6.2A4.8 4.8 0 1 0 16.8 13 4.8 4.8 0 0 0 12 8.2zm6.4-3.6a1.2 1.2 0 1 1-1.2 1.2 1.2 1.2 0 0 1 1.2-1.2z"/></svg>
+          Instagram
+        </a>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <div class="slideshow" id="cake-slideshow">
+            <div class="slideshow-container">
+              <img src="/assets/images/IMG_2667.jpeg" alt="Custom cake 1" class="slide-img" loading="lazy">
+              <img src="/assets/images/kay/IMG_3111.jpeg" alt="Custom cake 2" class="slide-img" loading="lazy" style="display:none;">
+              <img src="/assets/images/kay/IMG_2340.jpeg" alt="Custom cake 3" class="slide-img" loading="lazy" style="display:none;">
+              <img src="/assets/images/kay2/IMG_9644.jpeg" alt="Custom cake 4" class="slide-img" loading="lazy" style="display:none;">
+            </div>
+            <button class="slide-nav slide-prev" aria-label="Previous slide">❮</button>
+            <button class="slide-nav slide-next" aria-label="Next slide">❯</button>
+            <div class="slide-dots">
+              <span class="dot active" data-slide="0"></span>
+              <span class="dot" data-slide="1"></span>
+              <span class="dot" data-slide="2"></span>
+              <span class="dot" data-slide="3"></span>
+            </div>
+          </div>
+          <h3>Cakes — Pre-Order Only</h3>
+          <p>Custom or naked cakes for birthdays, anniversaries and special moments. Choose size, flavour and finish.</p>
+          <a href="/cakes.html" class="btn">Customize</a>
+        </article>
+        <article class="card">
+          <a href="/banana-bread.html" class="card-link">
+            <span class="img-wrap">
+              <img src="/assets/images/kay/29822.jpeg" srcset="/assets/images/kay/29822.jpeg 800w, /assets/images/kay/29830.jpeg 1200w, /assets/images/kay/29836.jpeg 1600w" sizes="(max-width:600px) 100vw, 33vw" alt="Banana bread" class="card-img" loading="lazy">
+              <span class="overlay">View gallery</span>
+            </span>
+            <h3>Banana Bread</h3>
+          </a>
+          <p>Moist, spiced banana bread baked daily. Great with yoghurt or as a gift.</p>
+          <button class="btn order-whatsapp" data-name="Banana Bread" data-price="2500">Order via WhatsApp</button>
+        </article>
+        <article class="card">
+          <img src="/assets/images/pastries/IMG_0023.jpeg" srcset="/assets/images/pastries/IMG_0023.jpeg 800w, /assets/images/pastries/IMG_0095.jpeg 1200w" sizes="(max-width:600px) 100vw, 33vw" alt="Pastries" class="card-img" loading="lazy">
+          <h3>Pastries & Snacks</h3>
+          <p>Chin-chin, peanut snacks and assorted pastries — crunchy and full of flavour.</p>
+          <a href="/pastries.html" class="btn">See Pastries</a>
+        </article>
+        <article class="card">
+          <img src="/assets/images/drink-specialty.jpeg" alt="Drinks" class="card-img" loading="lazy">
+          <h3>Drinks</h3>
+          <p>Yoghurt, Greek yoghurt and zobo — refreshing companions for your snack.</p>
+          <a href="/drinks.html" class="btn">View Drinks</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="how-to container">
+      <h2>How to Order</h2>
+      <ol>
+        <li>Browse products and select items or customize a cake.</li>
+        <li>When ready, click the <strong>Order via WhatsApp</strong> button.</li>
+        <li>WhatsApp will open with a pre-filled message — add delivery details and send.</li>
+        <li>We will confirm availability and arrange pickup or delivery.</li>
+      </ol>
+      <p class="note">Note: Cakes are <strong>pre-order only</strong>. Please select a preferred date when ordering cakes.</p>
+    </section>
+
+    <section class="availability container">
+      <h2>Availability Notices</h2>
+      <p>We bake in small batches to keep quality high. Some items may be marked <strong>Sold Out</strong> — check product pages or tap the WhatsApp button to confirm.</p>
+    </section>
+
+    <!-- Gallery removed from homepage per request -->
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>&copy; <span id="year"></span> Kaydelish. All rights reserved.</p>
+        <p>Order via WhatsApp: <a href="https://wa.me/2348031868066" id="wa-phone">+234 803 186 8066</a></p>
+      </div>
+      <div class="social-mini" aria-hidden="false">
+        <a class="tiktok" href="https://www.tiktok.com/@kaysdelish_oven?_r=1&_t=ZS-93TrW768wtM" target="_blank" rel="noopener" aria-label="Visit our TikTok">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 3v10.5A4.5 4.5 0 1 0 13.5 18V9h3V6.5a6.5 6.5 0 0 1-7.5-3.5z"/></svg>
+          TikTok
+        </a>
+        <a class="instagram" href="https://www.instagram.com/kaysdelish_oven?igsh=Z29oNGNvaGkzc3Y4" target="_blank" rel="noopener" aria-label="Visit our Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 6.2A4.8 4.8 0 1 0 16.8 13 4.8 4.8 0 0 0 12 8.2zm6.4-3.6a1.2 1.2 0 1 1-1.2 1.2 1.2 1.2 0 0 1 1.2-1.2z"/></svg>
+          Instagram
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+  <script src="/js/order.js"></script>
 </body>
 </html>
